@@ -26,14 +26,15 @@ https://desktop.github.com/
 
 一般在使用Git命令时，我们还会经常使用到 Mac终端（Terminal）/ Windows命令窗口 (cmd) 命令。掌握以下命令会对终端/窗口操作很用帮助。
 
-| Windows | Mac OS/Linux) | 描述               | 例子
-| mkdir   | mkdir         | 新建目录           | mkdir testdirectory
-| del     | rm            | 删除文档/目录      | del c:\test\test.txt
-| copy    | cp            | 复制文档           | copy <origin>c:\test\test.txt <copy>c:\windows\test.txt
-| move    | mv            | 移动文档           | move <from>c:\test\test.txt <from>c:\windows\test.txt
-| cd      | cd            | 修改路径           | cd ./childdir
-| dir     | ls            | 列出所有文档和路径 | dir
-| exit    | exit          | 离开视窗           | exit
+| Windows | Mac OS/Linux) | 描述               | 例子                                                     | 
+| ------- | ------------- | ------------------ | -------------------------------------------------------  | 
+| mkdir   | mkdir         | 新建目录           | mkdir testdirectory                                      |  
+| del     | rm            | 删除文档/目录      | del c:\test\test.txt                                     |    
+| copy    | cp            | 复制文档           | copy <origin>c:\test\test.txt <copy>c:\windows\test.txt  |  
+| move    | mv            | 移动文档           | move <from>c:\test\test.txt <from>c:\windows\test.txt    |  
+| cd      | cd            | 修改路径           | cd ./childdir                                            |  
+| dir     | ls            | 列出所有文档和路径 | dir                                                      |   
+| exit    | exit          | 离开视窗           | exit                                                     |  
 
 
 ## 创建一个本地 Git 仓库
@@ -159,7 +160,9 @@ origin 是远程仓库名字的默认名字，这样可以用其名字来代替�
 
 
 
-## 理解Git工作流 http://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-Git-%E5%9F%BA%E7%A1%80
+## 理解Git工作流 
+
+http://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-Git-%E5%9F%BA%E7%A1%80
 
 ## Git的撤销操作
 
