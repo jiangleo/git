@@ -26,15 +26,15 @@ https://desktop.github.com/
 
 一般在使用Git命令时，我们还会经常使用到 Mac终端（Terminal）/ Windows命令窗口 (cmd) 命令。掌握以下命令会对终端/窗口操作很用帮助。
 
-| Windows | Mac OS/Linux) | 描述               | 例子                                                     | 
-| ------- | ------------- | ------------------ | -------------------------------------------------------  | 
-| mkdir   | mkdir         | 新建目录           | mkdir testdirectory                                      |  
-| del     | rm            | 删除文档/目录      | del c:\test\test.txt                                     |    
-| copy    | cp            | 复制文档           | copy <origin>c:\test\test.txt <copy>c:\windows\test.txt  |  
-| move    | mv            | 移动文档           | move <from>c:\test\test.txt <from>c:\windows\test.txt    |  
-| cd      | cd            | 修改路径           | cd ./childdir                                            |  
-| dir     | ls            | 列出所有文档和路径 | dir                                                      |   
-| exit    | exit          | 离开视窗           | exit                                                     |  
+| Windows | Mac OS/Linux) | 描述               | 例子                                                     |
+| ------- | ------------- | ------------------ | -------------------------------------------------------  |
+| mkdir   | mkdir         | 新建目录           | mkdir testdirectory                                      |
+| del     | rm            | 删除文档/目录      | del c:\test\test.txt                                     |
+| copy    | cp            | 复制文档           | copy <origin>c:\test\test.txt <copy>c:\windows\test.txt  |
+| move    | mv            | 移动文档           | move <from>c:\test\test.txt <from>c:\windows\test.txt    |
+| cd      | cd            | 修改路径           | cd ./childdir                                            |
+| dir     | ls            | 列出所有文档和路径 | dir                                                      |
+| exit    | exit          | 离开视窗           | exit                                                     |
 
 
 ## 创建一个本地 Git 仓库
@@ -129,6 +129,7 @@ ps:
 总结一下 Git 文件的4种状态，并对比 SVN 文件状态便于理解
 
 |            | 状态描述                             | 对比 SVN                        |
+| ---------- | ------------------------------------ | ------------------------------- |
 | Untracked  | 不属于 Git 仓库但是在 Git 目录的文件 | ![SVN](./img/readme/svn_03.png) |
 | Unmodified | 文件和本地 Git 仓库文件一样          | ![SVN](./img/readme/svn_01.png) |
 | Modified   | 文件有改动                           | ![SVN](./img/readme/svn_02.png) |
