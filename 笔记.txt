@@ -4,7 +4,7 @@
 # Git master修改
 >>>>>>> master
 
-## 起步
+## 解决冲突不成功 master
 
 分布式版本控制系统（Distributed Version Control System，简称 DVCS）
 
