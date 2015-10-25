@@ -1,4 +1,8 @@
-# Git modify modify
+<<<<<<< HEAD
+# Git master修改
+=======
+# Git master修改
+>>>>>>> master
 
 ## 起步
 
