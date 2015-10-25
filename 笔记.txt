@@ -1,4 +1,4 @@
-# Git
+# Git 修改1
 
 ## 起步
 
@@ -170,6 +170,12 @@ Git 通过创建了一个可以移动的新的指针来创建创建新分支。
 | git checkout -b <name> | -b branch缩写；创建分支并切换分支 
 | git branch -d <name> | 删除分支
 
+ git branch [options] [-r | -a] [--merged | --no-merged]
+ git branch [options] [-l] [-f] <branchname> [<start-point>]
+ git branch [options] [-r] (-d | -D) <branchname>...
+ git branch [options] (-m | -M) [<oldbranch>] <newbranch>
+
+
 
 fast-forward ：当你试图合并两个分支时，如果顺着一个分支走下去能够到达另一个分支，那么 Git 在合并两者的时候，只会简单的将指针向前推进（指针右移），因为这种情况下的合并操作没有需要解决的分歧
 
@@ -182,5 +188,3 @@ fast-forward ：当你试图合并两个分支时，如果顺着一个分支走�
 ### 特性分支
 
 特性分支对任何规模的项目都适用。 特性分支是一种短期分支，它被用来实现单一特性或其相关工作。 也许你从来没有在其他的版本控制系统（VCS）上这么做过，因为在那些版本控制系统中创建和合并分支通常很费劲。 然而，在 Git 中一天之内多次创建、使用、合并、删除分支都很常见。
-
-修改内容不提交，切换分支。
