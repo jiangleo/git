@@ -1,0 +1,49 @@
+当2个分支不在同一分支线上时，修改其中一分支切换到另一个分支提示。 ×
+当前分支在远程分支之上有更新，提示提交。 √
+your branch is ahead of "origin/master" by 1 commit. 
+
+删除分叉分支中的其中一个分支提示。
+error: The branch 'updata' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D updata'.
+
+合并分叉分支
+Merge made by the 'recursive' strategy.
+
+
+对同一个文件的同一个部分进行了不同的修改，Git 就没法干净的合并它们。
+Auto-merging 笔记.txt
+CONFLICT (content): Merge conflict in 笔记.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+使用 `git status` 查看状态
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+        both modified:   "\347\254\224\350\256\260.txt"
+
+
+打开冲突文件，会有提示
+
+    <<<<<<< HEAD
+    # Git modify modify
+    =======
+    # Git master修改
+    >>>>>>> master
+
+选择其中一个进行修改，让他们都相同
+
+    <<<<<<< HEAD
+    # Git modify modify
+    =======
+    # Git modify modify
+    >>>>>>> master
+
+
+当在修改冲突文件时，切换分支会提示。
+
+    error: Your local changes to the following files would be overwritten by checkou
+    t:
+            笔记.txt
+    Please, commit your changes or stash them before you can switch branches.
+    Aborting
+
