@@ -262,13 +262,3 @@ issue 92V2
 dumbidea 
 
 experiment
-
-
-## 退回
-
-`git reset --hard <hash>`
-
-
-`git reflog`
-
-aaa
