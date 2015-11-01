@@ -1,12 +1,36 @@
 # Git && Github
 
-## 学习目标
+## 目录
 
-1. 布置Git环境
-2. 初次使用Git
-3. 下载、上传操作
-4. 撤销操作
-5. 分支功能
+1. 简介
+2. 安装
+3. 本地仓库
+3. 介绍版本
+4. 分支功能
+5. 解决冲突
+6. 推送到远程仓库
+
+## 简介
+
+- Git 与 SVN 的理念差异
+
+分布式版本控制器 ==> 中央版本控制器
+
+整个项目         ==> 项目快照
+
+多分副本         ==> 一个副本
+
+
+- Git 与 SVN的概念差异
+
+repository 仓库  ==> snv主文件夹
+
+status 状态      ==> √ ! ?
+
+commit 版本      ==> 和svn一样
+
+branch 分支      ==> 类似公司的dev和release分支
+
 
 ## 下载git
 
@@ -20,7 +44,11 @@ http://msysgit.github.com/
 
 https://desktop.github.com/
 
-以上两种Git工具，建议都下载来试试，个人使用 Git Shell 比较多。
+以上两种Git工具，建议都下载来试试， ~~个人使用 Git Shell 比较多，~~ 只用 GitHub 图形界面省事!
+
+## 使用图形界面
+
+
 
 ## 了解命令行
 
@@ -37,7 +65,7 @@ https://desktop.github.com/
 | exit    | exit          | 离开视窗           | exit                                                     |
 
 
-## 创建一个本地 Git 仓库
+## 创建一个本地 Git 仓库 *repository*
 
 完成前面的准备工作后，现在正式开始学习Git的操作。
 
