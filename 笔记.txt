@@ -1,4 +1,4 @@
-# Git master修改
+﻿# Git master修改
 
 ## 起步 解决冲突不成功 modify
 
@@ -258,6 +258,7 @@ Unmerged paths:
     Please make sure you have the correct access rights
     and the repository exists.
 
+
 正确的
 
     * remote origin
@@ -298,3 +299,8 @@ boot_zhaoshang.js
 
 boot_shenghuo.js
 20151026173604
+
+issue 92V2
+dumbidea 
+
+experiment
